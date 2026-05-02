@@ -10,7 +10,7 @@ const Templatepage = () => {
     <div>
         <Navbar />
       <Sidebar active={active} setActive={setActive} />
-      <h1>template page</h1>
+      
     </div>
   )
 }
