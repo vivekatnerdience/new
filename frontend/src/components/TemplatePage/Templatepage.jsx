@@ -9,8 +9,9 @@ const Templatepage = () => {
   return (
     <div>
         <Navbar />
+
+        
       <Sidebar active={active} setActive={setActive} />
-      
     </div>
   )
 }
