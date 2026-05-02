@@ -1,0 +1,40 @@
+.preview-page {
+  padding: 40px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card-item {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card-top {
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
